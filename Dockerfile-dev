@@ -4,10 +4,11 @@ RUN apk add --no-cache --update build-base \
                                 linux-headers \
                                 git \
                                 nodejs \
-
+                                bash
 ENV APP_PATH /usr/src/app
 WORKDIR $APP_PATH
-RUN echo "gem: --no-document" > $HOME/.gemrc
+RUN echo "gem: --no-document" > ~/.gemrc
 COPY Gemfile* ./
 RUN bundle install --jobs `expr $(cat /proc/cpuinfo | grep -c "cpu cores") - 1` --retry 3
 COPY . $APP_PATH
+EXPOSE 4000
