@@ -12,3 +12,4 @@ COPY Gemfile* ./
 RUN bundle install --jobs `expr $(cat /proc/cpuinfo | grep -c "cpu cores") - 1` --retry 3
 COPY . $APP_PATH
 EXPOSE 4000
+CMD ["bundle", "exec", "rails", "server", "-p", "4000", "-b", "0.0.0.0"]
