@@ -1,0 +1,10 @@
+.git
+.gitignore
+.dockerignore
+Dockerfile.dev
+Dockerfile.prod
+.ruby-version
+README.md
+log
+tmp
+.bundle
