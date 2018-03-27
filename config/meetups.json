@@ -1,0 +1,271 @@
+{
+  "meetups": [
+    {
+      "title":"Meetup #1",
+      "datetime":"2016-12-23 20:00:00",
+      "location":"Orel, Rusanova street 21a - Inventos, conference hall",
+      "reports": [
+        {
+          "theme":"Elasticsearch, Kibana, Fluentd - getting started",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Sigachev"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #2",
+      "datetime":"2017-01-27 20:00:00",
+      "location":"Orel, Rusanova street 21a - Inventos, conference hall",
+      "reports": [
+        {
+          "theme":"Data analysis with ClickHouse",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Sigachev"
+          }
+        },
+
+        {
+          "theme":"First steps with RabbitMQ",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Svetkin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #3",
+      "datetime":"2017-03-24 20:00:00",
+      "location":"Orel, Rusanova street 21a - Inventos, conference hall",
+      "reports": [
+        {
+          "theme":"Isomorphic applications on JavaScript",
+          "speaker": {
+            "first_name":"Ilya",
+            "last_name":"Ozerov"
+          }
+        },
+
+        {
+          "theme":"OOP application's design principles",
+          "speaker": {
+            "first_name":"Nikita",
+            "last_name":"Skalkin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #4",
+      "datetime":"2017-04-28 20:00:00",
+      "location":"Orel, Pushkin street 6 - Loft \"The third floor\"",
+      "reports": [
+        {
+          "theme":"Config management with Ansible",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Svetkin"
+          }
+        },
+
+        {
+          "theme":"Parsing expression grammar of formal languages with Treetop",
+          "speaker": {
+            "first_name":"Ivan",
+            "last_name":"Lopatin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #5",
+      "datetime":"2017-06-02 20:00:00",
+      "location":"Orel, Rusanova street 21a - Inventos, conference hall",
+      "reports": [
+        {
+          "theme":"Develop and test through Docker + Gitlab CI",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Sigachev"
+          }
+        },
+
+        {
+          "theme":"Ruby Gotchas",
+          "speaker": {
+            "first_name":"Nikita",
+            "last_name":"Skalkin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #6",
+      "datetime":"2017-06-23 20:00:00",
+      "location":"Orel, Rusanova street 21a - Inventos, conference hall",
+      "reports": [
+        {
+          "theme":"How to start developing on Ruby on Rails",
+          "speaker": {
+            "first_name":"Kirill",
+            "last_name":"Karpinovsky"
+          }
+        },
+
+        {
+          "theme":"Solving Ruby's memories problems",
+          "speaker": {
+            "first_name":"Ivan",
+            "last_name":"Lopatin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #7",
+      "datetime":"2017-07-28 20:00:00",
+      "location":"Orel, Lenina street 1 - Loft-space \"The Place\"",
+      "reports": [
+        {
+          "theme":"Frontend frameworks overview",
+          "speaker": {
+            "first_name":"Pavel",
+            "last_name":"Bogatyrov"
+          }
+        },
+
+        {
+          "theme":"Developing services for a \"smart\" speakers",
+          "speaker": {
+            "first_name":"Ilya",
+            "last_name":"Lityuga"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #8",
+      "datetime":"2017-09-29 20:00:00",
+      "location":"Orel, Rusanova street 21a - Inventos, conference hall",
+      "reports": [
+        {
+          "theme":"Docker - from developer\'s machine through CI to production",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Sigachev"
+          }
+        },
+
+        {
+          "theme":"Tracking changes on the web pages",
+          "speaker": {
+            "first_name":"Ilya",
+            "last_name":"Koskin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #9",
+      "datetime":"2017-09-29 19:00:00",
+      "location":"Orel, Pushkin street 6 - Loft-place \"The third floor\"",
+      "reports": [
+        {
+          "theme":"GraphQL",
+          "speaker": {
+            "first_name":"Yuri",
+            "last_name":"Arhipov"
+          }
+        },
+
+        {
+          "theme":"Blockchain understanding",
+          "speaker": {
+            "first_name":"Nikita",
+            "last_name":"Skalkin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #10",
+      "datetime":"2017-09-29 19:00:00",
+      "location":"Orel, Pushkin street 6 - Loft-place \"The third floor\"",
+      "reports": [
+        {
+          "theme":"Kotlin language",
+          "speaker": {
+            "first_name":"Pavel",
+            "last_name":"Shorokxov"
+          }
+        },
+
+        {
+          "theme":"Scala overview",
+          "speaker": {
+            "first_name":"Alexey",
+            "last_name":"Fomkin"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #11",
+      "datetime":"2017-09-29 19:00:00",
+      "location":"Orel, Pushkin street 6 - Loft-place \"The third floor\"",
+      "reports": [
+        {
+          "theme":"Creating an interpreter of algebraic expressions",
+          "speaker": {
+            "first_name":"Ivan",
+            "last_name":"Lopatin"
+          }
+        },
+
+        {
+          "theme":"Kafka - from simple to complex",
+          "speaker": {
+            "first_name":"Yuri",
+            "last_name":"Arhipov"
+          }
+        }
+      ]
+    },
+
+    {
+      "title":"Meetup #12",
+      "datetime":"2018-03-30 19:00:00",
+      "location":"Orel, Pushkin street 6 - Loft-place \"The third floor\"",
+      "reports": [
+        {
+          "theme":"Golang - for whom and why",
+          "speaker": {
+            "first_name":"Kirill",
+            "last_name":"Volchenko"
+          }
+        },
+
+        {
+          "theme":"Service Discovery in distributed systems with Consul",
+          "speaker": {
+            "first_name":"Alexander",
+            "last_name":"Sigachev"
+          }
+        }
+      ]
+    }
+  ]
+}

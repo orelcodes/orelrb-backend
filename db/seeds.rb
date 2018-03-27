@@ -1,7 +1,13 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Meetups = HashWithIndifferentAccess.new(JSON.parse(File.read(Rails.root.join('config', 'meetups.json'))))
+
+Meetups[:meetups].each do |meetup|
+  ActiveRecord::Base.transaction do
+    m = Meetup.find_or_create_by!(meetup.slice(:title, :datetime))
+    l = Location.find_or_create_by!(address: meetup[:location], meetup: m)
+
+    meetup[:reports].each do |report|
+      s = Speaker.find_or_create_by!(report[:speaker])
+      r = Report.find_or_create_by!(theme: report[:theme], speaker: s, meetup: m)
+    end
+  end
+end
